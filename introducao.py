@@ -41,3 +41,7 @@ garotas = ['Geovana', 'Débora', 'Camila', 'Isabelle', 'Roberta']
 for name in garotas:
     saudacao(name)
     print('Próxima')
+
+#laços com números
+for i in range(1,6):
+    print(i)    
