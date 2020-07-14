@@ -34,10 +34,10 @@ if volume < 20 or volume > 80:
     print('Bem melhor agora!')'''
 
 def saudacao(name):
-    if name == 'Katia':
-        print('Olá, '+ name +'!')
+    print('Olá, '+ name +'!')
     
-    else:
-        print('Qual o seu nome?')
-
-saudacao('Katia')    
+#laços
+garotas = ['Geovana', 'Débora', 'Camila', 'Isabelle', 'Roberta']
+for name in garotas:
+    saudacao(name)
+    print('Próxima')
