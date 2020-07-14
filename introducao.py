@@ -34,7 +34,10 @@ if volume < 20 or volume > 80:
     print('Bem melhor agora!')'''
 
 def saudacao(name):
-    print('Olá, '+ name +'!')
-    print('Está tudo bem?')
+    if name == 'Katia':
+        print('Olá, '+ name +'!')
+    
+    else:
+        print('Qual o seu nome?')
 
 saudacao('Katia')    
